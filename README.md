@@ -1,6 +1,8 @@
 # FakerRegisterCustomersDE
 
-This system is responsible for generating fake customer data using the Python Faker library. These data are then used to feed a customer class in Python, where they are passed through data validation using regular expressions.
+Project for studying ETL for the data engineering area.
+
+This system is responsible for generating fake from fictitious customers data using the Python Faker library. These data are then used to feed a customer class in Python, where they are passed through data validation using regular expressions.
 
 To use the system, it is necessary to have the Faker library installed. It can be installed using the command pip install faker.
 
@@ -12,4 +14,6 @@ After validation, the data is stored in a list of tuples, which can be transform
 
 Additionally, the validation process also generates boolean columns named 'check_valid_' for each data, indicating whether the data is valid or not.
 
-Once the data is stored in a list of tuples, it can be loaded into a Spark DataFrame for further analysis. To use Spark on a local machine, it is necessary to have Spark and its dependencies installed. This can be done through the command pip install pyspark. Additionally, it is also necessary to have a Java Development Kit (JDK) installed on the local machine.
+## Requirement
+1 - Spark/Hadoop/Pyspark/JDK
+To use Spark on a local machine, you need to have Spark and its dependencies installed. This can be done using the 'pip install pyspark' command. In addition, you also need to have a Java Development Kit (JDK) installed on your local machine.
