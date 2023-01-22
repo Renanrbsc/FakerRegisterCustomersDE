@@ -12,7 +12,14 @@ After validation, the data is stored in a list of tuples, which can be transform
 
 Additionally, the validation process also generates boolean columns named 'check_valid_' for each data, indicating whether the data is valid or not.
 
-## Requirement
-1 - Spark/Hadoop/Pyspark/JDK
-To use Spark on a local machine, you need to have Spark and its dependencies installed. This can be done using the 'pip install pyspark' command. In addition, you also need to have a Java Development Kit (JDK) installed on your local machine.
-2 - To use the system, it is necessary to have the Faker library installed. It can be installed using the command 'pip install faker'.
+## Requirements
+To use Spark on a local machine, you need to have the following installed:
+
+Spark
+Hadoop
+Pyspark
+JDK
+You can install pyspark using the command pip install pyspark.
+In addition, you also need to have the Faker library installed. You can install it using the command pip install faker.
+
+Please note that, in order to use Spark on a local machine, you also need to have a Java Development Kit (JDK) installed on your local machine.
