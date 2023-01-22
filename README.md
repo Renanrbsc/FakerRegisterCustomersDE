@@ -19,6 +19,7 @@ Spark
 Hadoop
 Pyspark
 JDK
+
 You can install pyspark using the command pip install pyspark.
 In addition, you also need to have the Faker library installed. You can install it using the command pip install faker.
 
